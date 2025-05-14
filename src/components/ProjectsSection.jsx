@@ -25,8 +25,8 @@ const projects = [
         description: "Developed a full-stack web app where users can sign up, log in, and register for outdoor adventure trips. Implemented secure authentication and session management, built dynamic views with Thymeleaf, and managed relational data using Spring Data JDBC and H2.",
         image: "/projects/outdoorAdventure.png",
         tags: ["Java", "Spring Boot", "Thymeleaf", "Spring Security", "JDBC", "H2", "Lombok"],
-        demoUrl: "#",
-        githubUrl: "#"
+        demoUrl: "https://github.com/GrantOkawa/Spring-Boot-Booking-Platform-Project",
+        githubUrl: "https://github.com/GrantOkawa/Spring-Boot-Booking-Platform-Project"
     },
 ];
 

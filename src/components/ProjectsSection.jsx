@@ -1,42 +1,62 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-    {
-        id: 1,
-        title: "Fridgorithm",
-        description: "Built an AI-powered web app that generates recipes based on ingredients users provide via photo, voice, or text. Developed a React frontend with an Express.js backend, integrated Azure’s Custom Vision (72% accuracy) and Speech-to-Text APIs, and used GPT-4 Turbo for dynamic recipe generation. Collaborated on a team of 4, learning React and AI integration on the fly.",
-        image: "/projects/fridgorithm.png",
-        tags: ["React", "Express.js", "Azure Custom Vision", "Azure Speech AI", "OpenAi", "SQLite"],
-        demoUrl: "https://devpost.com/software/fridgorithm",
-        githubUrl: "https://github.com/sophieynw/fridgorithm"
-    },
-        {
-        id: 2,
-        title: "BrainBuddy",
-        description: "Created an intelligent study assistant that generates personalized flashcards and explains complex topics. Focused on adaptive learning with NLP integration. Prioritized user simplicity while building a responsive, user-friendly UI. Gained experience balancing AI logic with frontend interactivity.",
-        image: "/projects/brainBuddy.png",
-        tags: ["React", "Flask", "Python", "CSS", "JavaScript"],
-        demoUrl: "https://devpost.com/software/brainbuddy-xrq4du",
-        githubUrl: "https://github.com/GrewalCreator/BrainBuddy"
-    },
-        {
-        id: 3,
-        title: "Outdoor Adventure Booking Platform",
-        description: "Developed a full-stack web app where users can sign up, log in, and register for outdoor adventure trips. Implemented secure authentication and session management, built dynamic views with Thymeleaf, and managed relational data using Spring Data JDBC and H2.",
-        image: "/projects/outdoorAdventure.png",
-        tags: ["Java", "Spring Boot", "Thymeleaf", "Spring Security", "JDBC", "H2", "Lombok"],
-        demoUrl: "https://spring-boot-booking-platform-project.onrender.com/",
-        githubUrl: "https://github.com/GrantOkawa/Spring-Boot-Booking-Platform-Project"
-    },
-    {
-        id: 4,
-        title: "Greenhouse Sensor Dashboard",
-        description: "Real-time dashboard for greenhouse sensors that monitor temperature, humidity, and air quality. React-based application that shows live sensor data.",
-        image: "/projects/greenhouse.png",
-        tags: ["React", "TypeScript", "CSS", "HTML"],
-        demoUrl: "https://greenhouse-sensor-dashboard.vercel.app/",
-        githubUrl: "https://github.com/GrantOkawa/greenhouse-sensor-dashboard"
-    },
+  {
+    id: 1,
+    title: "Fridgorithm",
+    description:
+      "Built an AI-powered web app that generates recipes based on ingredients users provide via photo, voice, or text. Developed a React frontend with an Express.js backend, integrated Azure’s Custom Vision (72% accuracy) and Speech-to-Text APIs, and used GPT-4 Turbo for dynamic recipe generation. Collaborated on a team of 4, learning React and AI integration on the fly.",
+    image: "/projects/fridgorithm.png",
+    tags: [
+      "React",
+      "Express.js",
+      "Azure Custom Vision",
+      "Azure Speech AI",
+      "OpenAi",
+      "SQLite",
+    ],
+    demoUrl: "https://devpost.com/software/fridgorithm",
+    githubUrl: "https://github.com/sophieynw/fridgorithm",
+  },
+  {
+    id: 2,
+    title: "Greenhouse Sensor Dashboard",
+    description:
+      "Real-time dashboard for greenhouse sensors that monitor temperature, humidity, and air quality. React-based application that shows live sensor data.",
+    image: "/projects/greenhouse.png",
+    tags: ["React", "TypeScript", "CSS", "HTML"],
+    demoUrl: "https://greenhouse-sensor-dashboard.vercel.app/",
+    githubUrl: "https://github.com/GrantOkawa/greenhouse-sensor-dashboard",
+  },
+  {
+    id: 3,
+    title: "BrainBuddy",
+    description:
+      "Created an intelligent study assistant that generates personalized flashcards and explains complex topics. Focused on adaptive learning with NLP integration. Prioritized user simplicity while building a responsive, user-friendly UI. Gained experience balancing AI logic with frontend interactivity.",
+    image: "/projects/brainBuddy.png",
+    tags: ["React", "Flask", "Python", "CSS", "JavaScript"],
+    demoUrl: "https://devpost.com/software/brainbuddy-xrq4du",
+    githubUrl: "https://github.com/GrewalCreator/BrainBuddy",
+  },
+  {
+    id: 4,
+    title: "Outdoor Adventure Booking Platform",
+    description:
+      "Developed a full-stack web app where users can sign up, log in, and register for outdoor adventure trips. Implemented secure authentication and session management, built dynamic views with Thymeleaf, and managed relational data using Spring Data JDBC and H2.",
+    image: "/projects/outdoorAdventure.png",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "Thymeleaf",
+      "Spring Security",
+      "JDBC",
+      "H2",
+      "Lombok",
+    ],
+    demoUrl: "https://spring-boot-booking-platform-project.onrender.com/",
+    githubUrl:
+      "https://github.com/GrantOkawa/Spring-Boot-Booking-Platform-Project",
+  },
 ];
 
 export const ProjectsSection = () => {

@@ -22,7 +22,7 @@ const projects = [
     id: 2,
     title: "Greenhouse Sensor Dashboard",
     description:
-      "Real-time dashboard for greenhouse sensors that monitor temperature, humidity, and air quality. React-based application that shows live sensor data.",
+      "Real-time dashboard for greenhouse sensors that monitor temperature, humidity, and air quality. React-based application that shows live sensor data. Data is processed and displays in real-time while allowing users to interact with it. Also supports sorting, filtering, and pagination.",
     image: "/projects/greenhouse.png",
     tags: ["React", "TypeScript", "CSS", "HTML"],
     demoUrl: "https://greenhouse-sensor-dashboard.vercel.app/",

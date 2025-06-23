@@ -28,6 +28,15 @@ const projects = [
         demoUrl: "https://spring-boot-booking-platform-project.onrender.com/",
         githubUrl: "https://github.com/GrantOkawa/Spring-Boot-Booking-Platform-Project"
     },
+    {
+        id: 4,
+        title: "Greenhouse Sensor Dashboard",
+        description: "Real-time dashboard for greenhouse sensors that monitor temperature, humidity, and air quality. React-based application that shows live sensor data.",
+        image: "/projects/greenhouse.png",
+        tags: ["React", "TypeScript", "CSS", "HTML"],
+        demoUrl: "https://greenhouse-sensor-dashboard.vercel.app/",
+        githubUrl: "https://github.com/GrantOkawa/greenhouse-sensor-dashboard"
+    },
 ];
 
 export const ProjectsSection = () => {
